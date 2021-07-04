@@ -6,7 +6,7 @@ event2 = '{"function": "avgConfirmedPer100Squar"}'
 event3 = '{"function": "Top10RecoveredCountry4Graph"}'
 event4 = '{"function": "NotExistFunc"}'
 
-jsonEvent = json.loads(event3)
+jsonEvent = json.loads(event1)
 
 demoResponse = Covid19_handler(jsonEvent, "ff")
 print(demoResponse)
